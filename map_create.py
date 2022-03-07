@@ -14,11 +14,21 @@ past_data = pd.read_csv("visited.csv")
 past_namelist = list(past_data["NAME"])
 past_latlist = list(past_data["LAT"])
 past_lonlist = list(past_data["LON"])
+past_yearlist = list(past_data["YEAR"])
+past_monthlist = list(past_data["MONTH"])
+past_durlist = list(past_data["DURATION"])
+past_triplist = list(past_data["TRIP"])
 #future_namelist = list(future_data["NAME"])
 #future_latlist = list(future_data["LAT"])
 #future_lonlist = list(future_data["LON"])
 
-
+# Configure pop-up html
+html = """<h4>Visited: %s</h4>
+Trip: %s<br>
+Year: %s<br>
+Month: %s<br>
+Duration: %s day/s
+"""
 
 # Create map object using folium
 # Set starting location - Consider implementing start on current location
@@ -31,8 +41,9 @@ past_fg = folium.FeatureGroup(name="Past Travels")
 #future_fg = folium.FeatureGroup(name="Future Plans")
 
 # Iterate through data list to build feature group children
-for lat,lon,place in zip(past_latlist,past_lonlist,past_namelist):
-    past_fg.add_child(folium.Marker(location=[lat,lon],popup=place,icon=folium.Icon('green')))
+for lat,lon,place,trip,year,month,dur in zip(past_latlist,past_lonlist,past_namelist,past_triplist,past_yearlist,past_monthlist,past_durlist):
+    iframe = folium.IFrame(html=html % (str(place),str(trip),str(year),str(month),str(dur)),width=200,height=100)
+    past_fg.add_child(folium.Marker(location=[lat,lon],popup=folium.Popup(iframe),icon=folium.Icon('green')))
 
 #for lat,lon,place in zip(future_latlist,future_lonlist,future_namelist):
 #   future_fg.add_child(folium).Marker(location=[lat,lon],popup=place,icon=folium.Icon('orange')))
