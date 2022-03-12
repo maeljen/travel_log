@@ -1,25 +1,26 @@
-NAME,YEAR,MONTH,DURATION,TRIP,LAT,LON
-London,2010,January,7,Postgrad Eurotrip,51.520618100076895,-0.12773120791460416
-Dublin,2010,January,2,Postgrad Eurotrip,53.34514925939084, -6.271806375417534
-Berlin,2010,February,3,Postgrad Eurotrip,52.52322777462791, 13.409586369077557
-Marrakech,2010,January,3,Postgrad Eurotrip,31.637468040082652, -8.002373518596423
-Essaouira,2010,January,1,Postgrad Eurotrip,31.533586934741997, -9.737769556713157
-Merzouga,2010,January,2,Postgrad Eurotrip,30.34677951926006, -5.839538829361585
-Fes,2010,January,1,Postgrad Eurotrip,34.02934922782353, -5.014789976267401
-Paris,2010,January,3,Postgrad Eurotrip,48.85634892667636, 2.3405091862879024
-Joshua Tree,2020,September,3,Kasra Birth Trip,34.13506553296546, -116.32291349151775
-Palm Springs,2021,September,3,Gen-Aanand Wedding Trip,33.79300300458168, -116.49945549931284
-Lisbon,2011,April,7,Family Portugal Trip,38.728340842087306, -9.141666956163773
-Heidelberg,2011,April,7,Heidelberg Rae Visit,49.39721733206024, 8.675715072308158
-Las Vegas,2020,January,3,Sin City Classic 2020,36.17457450446501, -115.18466474446512
-Las Vegas,2019,January,3,Denver Cabin and Sin City,36.17457450446501, -115.18466474446512
-Minneapolis,2019,April,7,Work Training,44.970125609066514, -93.2553101152162
-Sedona,2016,April,7,Sedona 2016,34.86268409012992, -111.79634090096204
-Erie,2020,July,3,Covid Beach Getaway,42.120201857458206, -80.07094999344756
-Columbus,2021,October,2,Bears Take Columbus 2021,39.96156556925348, -82.99911785528111
-Toronto,2014,October,150,TR2 Project,43.662290597381805, -79.35063860663841
-Puerta Vallarta,2013,March,4,Family Mexico Trip,20.652423381062345, -105.2300211044271
-Tampa,2020,February,7,Gasparilla Classic 2020,27.95902728115886, -82.47630947426244
-St Petersburg,2019,February,5,Gasparilla Classic 2019,27.856432604021645, -82.70495969080743
-Sarasota,2020,November,7,Thanksgiving FL Roadtrip 2020,27.311448244886357, -82.53141079369081
-San Antonio,2018,December,4,New Years with Matt and Alex,29.427326511608875, -98.49523397983562
+NAME,YEAR,MONTH,DURATION,TRIP
+London,2010,January,7,Postgrad Eurotrip
+Dublin,2010,January,2,Postgrad Eurotrip
+Berlin,2010,February,3,Postgrad Eurotrip
+Marrakech,2010,January,3,Postgrad Eurotrip
+Essaouira,2010,January,1,Postgrad Eurotrip
+Merzouga,2010,January,2,Postgrad Eurotrip
+Fes,2010,January,1,Postgrad Eurotrip
+Paris,2010,January,3,Postgrad Eurotrip
+Joshua Tree,2020,September,3,Kasra Birth Trip
+Palm Springs,2021,September,3,Gen-Aanand Wedding Trip
+Sacramento,2021,September,5,Gen-Aanand Wedding Trip
+Lisbon,2011,April,7,Family Portugal-Heidelberg Trip
+Heidelberg,2011,April,7,Family Portugal-Heidelberg Trip
+Las Vegas,2020,January,3,Sin City Classic 2020
+Las Vegas,2019,January,3,Denver Cabin and Sin City
+Minneapolis,2019,April,7,Work Training
+Sedona,2016,April,7,Sedona 2016
+Erie,2020,July,3,Covid Beach Getaway
+Columbus,2021,October,2,Bears Take Columbus 2021
+Toronto,2014,October,150,TR2 Project
+Puerta Vallarta,2013,March,4,Family Mexico Trip
+Tampa,2020,February,7,Gasparilla Classic 2020
+St Petersburg,2019,February,5,Gasparilla Classic 2019
+Sarasota,2020,November,7,Thanksgiving FL Roadtrip 2020
+San Antonio,2018,December,4,New Years with Matt and Alex
